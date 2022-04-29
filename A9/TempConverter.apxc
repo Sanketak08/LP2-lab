@@ -1,0 +1,21 @@
+public class TempConverter {
+    public Double val1 {get;set;}
+    public Double result {get;set;}
+    public String func {get;set;}
+   
+    public TempConverter()
+    {
+    }
+   
+    public void find()
+    {
+        if(func == 'C2F')
+        {
+            result = 1.8 * val1 + 32;
+        }
+        else
+        {
+            result = ((val1 - 32) * 5)/9;
+        }
+    }
+}
