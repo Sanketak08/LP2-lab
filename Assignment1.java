@@ -29,7 +29,7 @@ class Graph {
     }
 }
 
-public class Assign1 {
+public class Assignment1 {
     
     public static void recursiveBFS(Graph graph, Queue<Integer> queue, boolean[] discovered) {
         if (queue.isEmpty()) {
